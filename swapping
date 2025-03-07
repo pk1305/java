@@ -1,0 +1,20 @@
+import java.util.Scanner;
+class swapping{
+	public static void main(String[] args) {
+		//Creating a scanner object to take user input
+		Scanner scanner = new Scanner (System.in);
+		// taking input for number1 and number2
+		System.out.print("Enter the first number:");
+		int number1 = scanner.nextInt();
+		System.out.print("Enter the second number:");
+		int number2 = scanner.nextInt();
+		//Swapping without using a third variable
+		number1 = number1 + number2;
+		number2 = number1 - number2;
+		number1 = number1 - number2;
+		//Displaying the swapped values
+		System.out.println("The swapped numbers are " + number1 + number2 + ".");
+		//closing the scanner
+		scanner.close();
+	}
+}
