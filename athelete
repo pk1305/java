@@ -1,0 +1,18 @@
+import java.util.Scanner;
+class salary{
+	public static void main(String[] args) {
+		//Creating a scanner object to take user input
+		Scanner scanner = new Scanner(System.in);
+		//Taking input for the three sides of the triangular park
+		System.out.printf("Enter the first side of the triangle (meters):");
+		double side1=scanner.nextDouble();
+		System.out.printf("Enter bonus in INR:");
+		double bonus = scanner.nextDouble();
+		//compute the total income
+		double totalincome = salary + bonus;
+		//print the result
+		System.out.printf("The salary is INR %.2f and bonus is INR %.2f.Hence Total Income is INR %.2f\n",salary,bonus,totalincome);
+		scanner.close();
+	}
+}
+		
