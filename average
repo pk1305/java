@@ -1,0 +1,23 @@
+import java.util.Scanner;
+class average {
+	public static void main(String[] args) {
+		//variable declaring for average
+		int number1;
+		int number2;
+		int number3;
+		//taking input from the user
+		Scanner input = new Scanner(System.in);
+		System.out.print("Enter first number:");
+		number1=input.nextInt();
+		System.out.print("Enter second number:");
+		number2=input.nextInt();
+		System.out.print("Enter third number:");
+		number3=input.nextInt();
+		//calculating avearge
+		double Average = 0;
+		Average=number1+number2+number3;
+		Average = Average/3;
+		System.out.println("The average is"+Average);
+		input.close();
+	}
+}
